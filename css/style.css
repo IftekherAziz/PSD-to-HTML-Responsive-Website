@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+
+/* Style for main banner start here */
+.main-banner{
+
+    background: url(/images/banner/banner3.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+  }
+.banner-items{
+   margin: 0 200px 0 800px;
+   text-align: right;
+}
+.banner-items h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: white;
+}
+.banner-items p{ 
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+    padding: 20px 0 20px 100px;
+    
+}
+.banner-items button{
+
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    width: 160px;
+    height: 64px;
+    background-color: white;
+    border-color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* Style for main banner section end  here */
+
+
+/* Style for my failure section start here */
+.my-failure{
+    display: flex;
+    align-items: center;
+    margin: 100px 250px;
+}
+.my-failure-items{
+    margin-left: 80px;
+    padding-top: 100px;
+}
+
+.my-failure-items h2{
+    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    color: #151414;
+
+}
+.my-failure-items p{
+    
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding: 20px 0;
+}
+.my-failure-items ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.my-failure-items ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+.my-failure-items ul li i{
+
+    color: #8BECC3;
+    margin-right: 8px;
+    padding: 8px 0;
+}
+/* Style for my failure section end here */
+
+
+/* Style for my plan section start here  */
+.my-plans{
+    
+    margin: 0 200px 100px;
+}
+.my-plans h1{
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+
+}
+.my-plans-content{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.my-plans-items h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.my-plans-items p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #737272;
+    ;
+}
+/* Style for my plan section end here  */
+
+
+/* Style for call now section start here  */
+.call-now{
+    margin: 100px 250px;
+    background: url(/images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0));
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode:overlay;  
+    height: 300px;
+    border-radius: 8px;
+}
+.call-now-content{
+    padding: 100px 60px;
+}
+.call-now-content h1{
+
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.call-now-content button{
+
+    color: #005FAC;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    padding: 15px 30px;
+    margin-top: 15px;
+    background-color: white;
+    border-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style for call now section end here  */
+
+
+/* Style for footer section  start  here*/
+footer{
+    background-color:#151414;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.footer-content{
+    margin: 50px 100px;
+}
+.footer-content h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F8F8F8;
+    
+}
+.footer-content p{
+    width: 485px;
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
+.footer-subscribe{
+    color: antiquewhite;
+    margin: 100px 100px;
+}
+.footer-subscribe h3{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer-subscribe input{
+    background-color: #151414;
+    border: 1px solid #F8F8F8;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+.footer-subscribe button{
+
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    padding: 10px 20px;
+    border-color: white;
+    background-color:#005FAC;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style for footer section end here*/
