@@ -7,7 +7,7 @@
 /* Style for main banner start here */
 .main-banner{
 
-    background: url(./images/banner/banner3.png) no-repeat;
+    background: url(../images/banner/banner3.png) no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 200px 0;
@@ -141,7 +141,7 @@
 /* Style for call now section start here  */
 .call-now{
     margin: 100px 250px;
-    background: url(./images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0));
+    background: url(../images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0));
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
