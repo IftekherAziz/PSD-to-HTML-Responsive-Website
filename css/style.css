@@ -47,6 +47,48 @@
 }
 /* Style for main banner section end  here */
 
+/* Style for my education section start here  */
+.my-education{
+    
+    margin: 0 200px 100px;
+}
+.my-education h1{
+    margin: 80px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+
+}
+.my-education-content{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+.my-education-items{
+    background-color:#F5F5F5;
+    border: 1px solid gainsboro;
+    padding: 60px 50px;
+    justify-content: space-around;
+}
+.my-education-items h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.my-education-items p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1a1919;
+}
+/* Style for my education section end here  */
 
 /* Style for my failure section start here */
 .my-failure{
